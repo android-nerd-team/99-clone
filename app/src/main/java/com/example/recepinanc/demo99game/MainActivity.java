@@ -29,7 +29,7 @@ public class MainActivity extends ActionBarActivity {
         mGridView.setAdapter(new StageGridViewAdapter(getApplicationContext(), mStages));
 
         //TODO Týklanan her itemin getStageNumber ile numarasýna göre database'den veri çekip
-        // TODO view'u dolduracak
+        //TODO view'u dolduracak
         mGridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
